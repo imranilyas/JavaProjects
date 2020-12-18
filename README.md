@@ -11,7 +11,7 @@ The user may change the following variables:
 * int max_loops
 * String start
 
-**WARNING**
+**WARNING** \
 The starting position is not case sensitive. However, keep the starting position limited to only the alphabet and no whitespace. Otherwise, the program will not be able to convert the string into a series of characters.
 
 ### Algorithm ###
