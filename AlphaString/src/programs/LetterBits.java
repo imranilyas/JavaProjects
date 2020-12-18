@@ -30,7 +30,7 @@ public class LetterBits {
 			loops++;
 		}
 	}
-	//add 32 to last letter
+	//increment by num var to last letter
 		public String incrementPosition(char array[], int num) {
 			for(int i = 0; i < num; i++) {
 				if (array[array.length - 1] == 'z') {
