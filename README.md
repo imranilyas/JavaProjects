@@ -26,6 +26,8 @@ The algorithm accomplishes the following tasks:
     * Array is returned in string format
     * Prints starting and final position
     * Starting position of string is set to final position and number of loops is incremented by 1
+    
+The result is a list of starting and final positions depending on how large/small the user wants the list to be.
 
 ## FindTarget ##
 The class file `BinaryRecursion.java` located in `src/programs` uses recursion to find the index of the target within an array.
