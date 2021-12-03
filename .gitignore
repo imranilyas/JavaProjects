@@ -19,5 +19,16 @@
 *.tar.gz
 *.rar
 
+# Metadata
+.metadata*
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+*.xml
+.metadata/.plugins/org.eclipse.core.resources/.history/15/f0eed55e703e001b1e49d2566aa8630c
+.metadata/.plugins/org.eclipse.core.resources/.history/1f/50a1beaf6f3e001b1e49d2566aa8630c
+*.index
+*.dat
+*.tree
+*.resources
+*.tree

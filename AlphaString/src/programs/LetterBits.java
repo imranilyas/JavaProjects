@@ -6,10 +6,10 @@ public class LetterBits {
 		LetterBits lb = new LetterBits();
 		
 		//parameters user may change
-		int num_additions = 26;
+		int num_additions = 31;
 		int loops = 0;
-		int max_loops = 30;
-		String start = "a";
+		int max_loops = 41;
+		String start = "cja";
 		
 		//convert string to lower case
 		start = start.toLowerCase();
@@ -24,8 +24,13 @@ public class LetterBits {
 			System.out.println("Your new position: " + final_position.toUpperCase());
 			System.out.println();
 		
-			//set new start to final position
+			//set new start to final position and increment by one
 			start = final_position;
+			arrString = start.toCharArray();
+			String new_position = lb.incrementPosition(arrString, 1);
+			
+			//set start to the incremented position
+			start = new_position;
 			arrString = start.toCharArray();
 			loops++;
 		}
