@@ -10,6 +10,8 @@ public class Rectangles {
 		System.out.println("Height: ");
 		int height = scan.nextInt();
 		int area = base*height;
+		int perimeter = base*2 + height*2;
 		System.out.println("Area: " + area);
+		System.out.println("Perimeter: " + perimeter);
 	}
 }
