@@ -44,4 +44,13 @@ public class Calculator {
 	public int multiply() {
 		return num1 * num2;
 	}
+	
+	@Override
+	public String toString() {
+		return "Calculator {"
+				+ this.num1
+				+ " and "
+				+ this.num2
+				+ "}";
+	}
 }
