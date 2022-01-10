@@ -94,6 +94,24 @@ public class FirstCollections {
 		String kaiju = "King Kong";
 		System.out.println("Higher in TreeSet: " + tree.higher(kaiju));
 		System.out.println("Lower in TreeSet: " + tree.lower(kaiju));
+		
+		System.out.println("-----------------------------");
+		
+		Kaiju monster = new Kaiju(1, "Orga", 120);
+		Kaiju monster2 = new Kaiju(2, "Space Godzilla", 90);
+		Kaiju monster3 = new Kaiju(3, "Jet Jaguar", 60);
+		Kaiju monster4 = new Kaiju(4, "Mothra", 50);
+		
+		ArrayList<Kaiju> monsterList = new ArrayList<>();
+		monsterList.add(monster);
+		monsterList.add(monster2);
+		monsterList.add(monster3);
+		monsterList.add(monster4);
+		
+//		Collections.sort(monsterList);
+		for(Kaiju k : monsterList) {
+			System.out.println(k.getName());
+		}
 
 	}
 }
