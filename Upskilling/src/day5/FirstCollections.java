@@ -102,15 +102,16 @@ public class FirstCollections {
 		Kaiju monster3 = new Kaiju(3, "Jet Jaguar", 60);
 		Kaiju monster4 = new Kaiju(4, "Mothra", 50);
 		
-		ArrayList<Kaiju> monsterList = new ArrayList<>();
-		monsterList.add(monster);
+		TreeSet<Kaiju> monsterList = new TreeSet<>(new KaijuNameComparator());
 		monsterList.add(monster2);
+		monsterList.add(monster);
+		monsterList.add(monster4);
 		monsterList.add(monster3);
 		monsterList.add(monster4);
 		
 //		Collections.sort(monsterList);
 		for(Kaiju k : monsterList) {
-			System.out.println(k.getName());
+			System.out.println("id: " + k.getId() + ", name: " + k.getName());
 		}
 
 	}
